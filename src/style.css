@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    color: aquamarine;
+    text-align:center;
+    background-color: #000;
+}
+body { 
+    background: url(https://media.licdn.com/dms/image/C511BAQGUaW4rnX8BGA/company-background_10000/0?e=2159024400&v=beta&t=LgkeoQRk2Ry15vPyAwKs7hIHq-4rnVcWKj8wJ_BeOlE) repeat-x 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-attachment: fixed;
+    text-align:center;
+}
+
+.redondeado {
+    border-radius: 5px;
+  }
+.confondo {
+    background-color: #def;
+  }
+.alineacion{
+    text-align:center;
+  }
+
+label{
+    color: black;
+    font-size: x-large;
+}
+   
+.marquee{ 
+    onmousover: "this.stop()" ;
+    onmouseout: "this.start()" ;
+    scrollamount: "2" ;
+    scrolldelay: "50" ;
+    behavior: "alternate";
+    bgcolor: "#4cc417";
+}
