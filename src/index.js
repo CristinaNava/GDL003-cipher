@@ -19,6 +19,13 @@ document.getElementById("codificar").addEventListener("click", cifrar);
 
 
 
+let decifrar = () => {
+    let textoValor = texto.value;
+    let offset= document.getElementById("offset").value;
+    document.getElementById("mensajeCifrado").innerHTML= window.cipher.decode(offset, textoValor);
+}
+document.getElementById("decodificar").addEventListener("click", decifrar);
+
 /*
 
 showName.addEventListener("click", () =>{
