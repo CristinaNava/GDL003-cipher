@@ -18,8 +18,9 @@ window.cipher = {
       else if (texto.charCodeAt(i) === 58) {
         arr.push(":");
       }
+      
       else if (texto.charCodeAt(i) < 97) {
-        let asc = (texto.charCodeAt(i) - 65 + offset) % 26 + 65;
+        let asc = (texto.charCodeAt(i)- 65 + offset)% 26 + 65;
         arr.push(String.fromCharCode(asc));
       }
       else {
